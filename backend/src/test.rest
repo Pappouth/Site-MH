@@ -1,0 +1,19 @@
+GET http://127.0.0.1:3000/api/monsters
+
+###
+GET http://127.0.0.1:3000/api/monsters/alatreon
+
+###
+GET http://127.0.0.1:3000/api/games
+
+###
+GET http://127.0.0.1:3000/api/games/monster hunter 3 ultimate
+
+###
+GET http://127.0.0.1:3000/api/games/sdqsdqsdqsdqsd
+
+###
+POST http://127.0.0.1:3000/api/login
+Content-Type: application/json
+
+{"username": "admin", "password": 123}

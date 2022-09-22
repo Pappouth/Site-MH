@@ -1,0 +1,6 @@
+GET http://localhost:8080/api/creatures
+###
+POST http://localhost:8080/api/creatues
+Content-Type: application/json
+
+{"name": "pikatu", "hp": 100}

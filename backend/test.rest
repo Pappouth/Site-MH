@@ -1,0 +1,17 @@
+###
+DELETE http://localhost:3000/api/delete/monster
+Content-Type: application/json
+
+{"id": 277}
+
+###
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{"username": "", "password": "123"}
+
+###
+GET http://localhost:3000/api/info
+
+###
+GET http://localhost:3000/api/monsters/fdsfdsf
